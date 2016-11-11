@@ -21,9 +21,9 @@
   </style>
 </head>
 <body>
-
+<!--Add a preloader spinner-->
 <!--NAVBAR-->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -31,17 +31,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <a class="navbar-brand" href="#">Brand</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa-facebook-official"></i></a></li>
+        <li><a href="#"><i class="fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-instagram"></i></a></li>
       </ul>
 
     </div>
@@ -100,16 +102,21 @@
   
 <div class="container-fluid bg-3 text-center">    
   <h3>Some of my Work</h3><br>
-  <div class="row" align="center">
-    <div class="col-sm-4">
+  <ul class="art_list" style="list-style-type:none">
+      
+      <li class="container text-center">
+        <p>Some text..</p>
+        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:50%" alt="Image">
+        <p>Some text..</p>
+        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:50%" alt="Image">
+      </li>
+
+  <!--<div class="row" align="center">
+    <div class="col-sm-5 text-center">
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
-    <div class="col-sm-4"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
+    <div class="col-sm-5 text-center"> 
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
@@ -118,11 +125,7 @@
 
 <div class="container-fluid bg-3 text-center">    
   <div class="row">
-    <div class="col-sm-4">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
+    <div class="col-sm-5">
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
@@ -143,29 +146,54 @@
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
     <div class="col-sm-4"> 
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </div>
-</div><br
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>-->
+</div><br>
 
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
 </footer>
 
-<script>
-  $(function() {
-      if ($('.slides-container').length) { 
-        $('.slideshow').superslides({
-          hashchange: false,
-          pagination:false,
-          play: 6000
-        });
-      }
-    });
-  </script>
-
+<script>src="page.js" type="text/javascript"</script>
+<script src="https://use.fontawesome.com/88797afeaa.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

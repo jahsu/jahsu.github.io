@@ -7,6 +7,9 @@ body {
   color: #5a5a5a;
 }
 
+a{
+	color:#000000;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -33,7 +36,9 @@ body {
   width: auto;
 }
 
-
+.col-sm-5{
+	text-align: center;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -98,6 +103,18 @@ body {
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */
+  .navbar {
+  	font-size: 150%;
+  	background-color: transparent;
+  	background: transparent;
+  	border-color: transparent;
+
+  }
+
+.navbar-brand{
+	font-size: 125%;
+}
+
   .navbar-wrapper {
     margin-top: 20px;
   }
